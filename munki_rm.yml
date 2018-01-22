@@ -1,0 +1,8 @@
+---
+# Remove Cyberduck if installed
+- hosts: ants-testgroup
+  vars:
+     - macos_munki_localonlymanifest__managed_uninstalls_cyberduck: "Cyberduck"
+     - macos_munki_localonlymanifest__name: "localonly_manifest.plist"
+  roles:
+    - ANTS-Framework.macos_munki_localonlymanifest

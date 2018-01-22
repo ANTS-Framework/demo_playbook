@@ -1,0 +1,7 @@
+---
+
+# Generic roles
+- src: ANTS-Framework.generic_motd
+- src: ANTS-Framework.macos_munki_localonlymanifest
+- src: ANTS-Framework.macos_sus
+- src: ANTS-Framework.macos_profile

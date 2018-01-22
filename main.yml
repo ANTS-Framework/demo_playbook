@@ -1,0 +1,8 @@
+---
+
+- hosts: all
+  vars:
+      - macos_sus__server: "http://sus.mysus.io" 
+  roles:
+    - ANTS-Framework.generic_motd
+    - ANTS-Framework.macos_sus

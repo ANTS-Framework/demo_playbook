@@ -1,0 +1,7 @@
+---
+
+- hosts: ants-testgroup*
+  vars:
+      - mobileconfig: { template: "loginwindow", state: "present" }
+  roles:
+    - ANTS-Framework.macos_profile

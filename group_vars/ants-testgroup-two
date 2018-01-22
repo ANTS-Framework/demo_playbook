@@ -1,0 +1,5 @@
+---
+# Login Window
+macos_profile__loginwindow_message:
+  - "Second Demo\n"
+  - "Assign variables by group"
